@@ -4,21 +4,44 @@ import React, { Component } from 'react';
 import Header from './Header';
 
 class App extends Component {
+
+  
+
   render() {
+
+    
+
+
+    // let subscribers =[
+    //   {
+    //     name: "p kumar",
+    //     phone: "111111111"
+    //   },
+    //   {
+    //     name: "k kumar",
+    //     phone: "2222222"
+    //   }
+    // ]
     // let x1  = 6;
     // let y1 = 7;
     // let firstname = "Pawan";
     // let lastName = " Dubey!";
     return (
+      <div>
+      <h1></h1>
+      <h3 class="heading">You should know how to "PROGRAM" a computer.</h3>
+      <p>It teaches you how to "THINK".</p>
+      <customFooter/>
+      </div>
 
-      <div>
-        <Header/>
-      <button>Add</button>
-      <div>
-         <span> Name</span><br/>
-         <span> Phone</span>
-      </div>
-      </div>
+      // <div>
+      //   <Header/>
+      // <button>Add</button>
+      // <div>
+      //    <span> Name</span><br/>
+      //    <span> Phone</span>
+      // </div>
+      // </div>
       
       // <div>
       //   {
